@@ -1,0 +1,38 @@
+.cat-info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cat-text {
+  max-width: 600px;
+}
+
+.cat-text h1 {
+  font-size: 40px;
+}
+
+.cat-text p {
+  font-size: 22px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.img-container {
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+
+  border-radius: 5px;
+}
